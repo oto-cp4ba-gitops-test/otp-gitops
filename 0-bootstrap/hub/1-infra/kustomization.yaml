@@ -32,10 +32,10 @@ resources:
 
 # DB2 - RBAC
  - argocd/rbac/db2/rbac-db2-rootsquash.yaml
- - argocd/rbac/db2/rbac-db2-config.yaml   Will need to be uncommented out
+ - argocd/rbac/db2/rbac-db2-config.yaml   # Will need to be uncommented out
 
 # DB2 - PVC
- - argocd/pvc/db2/db2-pvc.yaml           Will need to be uncommented out
+ - argocd/pvc/db2/db2-pvc.yaml           # Will need to be uncommented out
 
  # External Secrets
  - argocd/rbac/rbac-external-secrets.yaml
