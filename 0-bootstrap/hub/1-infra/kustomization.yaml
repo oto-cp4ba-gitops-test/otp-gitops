@@ -20,10 +20,10 @@ resources:
 # CP4BA
 
 # CP4BA - Namespaces
-# - argocd/namespaces/cloudpak/cp4ba/namespace-cp4ba.yaml
-# - argocd/namespaces/cloudpak/cp4ba/namespace-db2.yaml
-# - argocd/namespaces/cloudpak/cp4ba/namespace-output-info.yaml
-# - argocd/namespaces/cloudpak/cp4ba/namespace-openldap.yaml
+ - argocd/namespaces/cloudpak/cp4ba/namespace-cp4ba.yaml
+ - argocd/namespaces/cloudpak/cp4ba/namespace-db2.yaml
+ - argocd/namespaces/cloudpak/cp4ba/namespace-output-info.yaml
+ - argocd/namespaces/cloudpak/cp4ba/namespace-openldap.yaml
 
 # CP4BA - RBAC
 # - argocd/rbac/cloudpak/cp4ba/rbac-cp4ba.yaml
