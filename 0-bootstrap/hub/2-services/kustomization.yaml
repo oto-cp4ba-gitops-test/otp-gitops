@@ -19,7 +19,7 @@ resources:
  - argocd/instances/sealed-secrets.yaml
 
  # SealedSecrets for API Key for External Secrets
- # - argocd/instances/external-secrets/api-key-sealedsecret.yaml
+ - argocd/instances/external-secrets/api-key-sealedsecret.yaml
 
  # External Secrets
  - argocd/operators/external-secrets.yaml
