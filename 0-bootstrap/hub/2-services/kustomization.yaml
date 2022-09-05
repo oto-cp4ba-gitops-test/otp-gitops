@@ -49,7 +49,7 @@ resources:
  # - argocd/instances/cloudpak/cp4ba/predeploy/automation-ui-config.yaml  (Likely not needed anymore)
 
  # CP4BA - Deploy Apps - Custom Resource
- - argocd/instances/cloudpak/cp4ba/deploy/icp4acluster.yaml
+ # - argocd/instances/cloudpak/cp4ba/deploy/icp4acluster.yaml
 
  # CP4BA - Deploy Apps - Health Checks
  # - argocd/instances/cloudpak/cp4ba/deploy/healthchecks/corecheck.yaml   Will need to be uncommented
