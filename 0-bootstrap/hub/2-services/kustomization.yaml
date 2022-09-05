@@ -44,7 +44,7 @@ resources:
  # CP4BA - Predeploy Apps
  - argocd/instances/cloudpak/cp4ba/predeploy/db2-configure.yaml
  - argocd/instances/cloudpak/cp4ba/predeploy/dbs-cp4ba-configuration.yaml
- #- argocd/instances/cloudpak/cp4ba/predeploy/global-ca.yaml
+ - argocd/instances/cloudpak/cp4ba/predeploy/global-ca.yaml
  - argocd/instances/cloudpak/cp4ba/predeploy/secrets.yaml
  # - argocd/instances/cloudpak/cp4ba/predeploy/automation-ui-config.yaml  (Likely not needed anymore)
 
