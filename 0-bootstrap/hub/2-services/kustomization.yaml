@@ -19,11 +19,11 @@ resources:
  - argocd/instances/sealed-secrets.yaml
 
  # SealedSecrets for API Key for External Secrets
- - argocd/instances/external-secrets/api-key-sealedsecret.yaml
+ #- argocd/instances/external-secrets/api-key-sealedsecret.yaml
 
  # External Secrets
  - argocd/operators/external-secrets.yaml
- - argocd/instances/external-secrets/external-secrets.yaml
+ #- argocd/instances/external-secrets/external-secrets.yaml
 
 # CloudPaks
 
@@ -38,8 +38,8 @@ resources:
  # CP4BA
 
  # CP4BA - Operators 
- - argocd/operators/cloudpak/cp4ba/cp4ba-catalogsources.yaml
- - argocd/operators/cloudpak/cp4ba/cp4ba-subscription.yaml
+ #- argocd/operators/cloudpak/cp4ba/cp4ba-catalogsources.yaml
+ #- argocd/operators/cloudpak/cp4ba/cp4ba-subscription.yaml
 
  # CP4BA - Predeploy Apps
  #- argocd/instances/cloudpak/cp4ba/predeploy/db2-configure.yaml
