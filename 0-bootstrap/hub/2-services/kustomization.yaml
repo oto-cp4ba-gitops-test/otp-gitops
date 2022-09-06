@@ -38,7 +38,7 @@ resources:
  # CP4BA
 
  # CP4BA - Operators 
- - argocd/operators/cloudpak/cp4ba/cp4ba-catalogsources.yaml
+#  - argocd/operators/cloudpak/cp4ba/cp4ba-catalogsources.yaml
 #  - argocd/operators/cloudpak/cp4ba/cp4ba-subscription.yaml
 
  # CP4BA - Predeploy Apps
